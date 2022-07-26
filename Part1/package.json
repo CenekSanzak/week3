@@ -9,5 +9,11 @@
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.4",
     "hardhat": "^2.9.3"
+  },
+  "scripts": {
+    "test": "node scripts/bump-solidity.js && npx hardhat test"
+  },
+  "dependencies": {
+    "circomlibjs": "^0.1.7"
   }
 }
